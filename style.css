@@ -120,9 +120,6 @@ input::placeholder {
   padding: 2em 0.5em;
 }
 
-.tab-content {
-}
-
 .tab-nav {
   --translate: attr(data-translate integer);
   display: flex;

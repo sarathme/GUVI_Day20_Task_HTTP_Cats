@@ -1,9 +1,10 @@
-// Selecting the needed elements for User experience and UI.
-const tabNav = document.querySelector(".tabs-container");
-const tabContents = document.querySelectorAll(".tab-content");
-const tabPanel = document.querySelector(".tabs__panel");
-const slider = document.querySelector(".tab-slider");
+# HTTP CATS API Task
 
+## UI and UX features
+
+### Implementing tab slider
+
+```js
 // The below event listener is used to implement switching tabs in the UI
 tabNav.addEventListener("click", (e) => {
   //Getting only the tab element list element.
@@ -27,7 +28,14 @@ tabNav.addEventListener("click", (e) => {
   // Adding active class for the clicked tab.
   document.getElementById(clickedTabId).classList.add("active");
 });
+```
 
+## Getting Images from HTTP Cats API.
+
+I can't use fetch in the API as it throws error. So I directly attached the
+image url from the API and didplayed it in the image element.
+
+```js
 // This event listerner is to fetch and display cats image.
 tabPanel.addEventListener("click", (e) => {
   // This is to ensure only the button is clicked and nothing else.
@@ -60,3 +68,4 @@ tabPanel.addEventListener("click", (e) => {
   img.src = url;
   img.setAttribute("alt", alt);
 });
+```
