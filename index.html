@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Status Code Cats</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="primary-heading"
+        >Get a Cat Image for HTTP Response status codes</h1
+      >
+      <div class="tabs-container">
+        <ul role="list" class="tab-nav">
+          <li data-tab-target="1xx">1xx</li>
+          <li data-tab-target="2xx">2xx</li>
+          <li data-tab-target="3xx">3xx</li>
+          <li data-tab-target="4xx">4xx</li>
+          <li data-tab-target="5xx">5xx</li>
+          <li class="tab-slider"></li>
+        </ul>
+        <div class="tabs__panel">
+          <div id="1xx" class="tab-content active" data-tab-content>
+            <h2>Informational responses</h2>
+            <div class="status-code-block">
+              <button class="statusCode">100</button>
+              <button class="statusCode">101</button>
+              <button class="statusCode">102</button>
+            </div>
+            <div class="img-block">
+              <img src="" alt="" />
+            </div>
+          </div>
+          <div id="2xx" class="tab-content" data-tab-content>
+            <h2>Successful responses</h2>
+            <div class="status-code-block">
+              <button class="statusCode">200</button>
+              <button class="statusCode">201</button>
+              <button class="statusCode">202</button>
+              <button class="statusCode">203</button>
+              <button class="statusCode">204</button>
+              <button class="statusCode">205</button>
+              <button class="statusCode">206</button>
+              <button class="statusCode">207</button>
+              <button class="statusCode">208</button>
+              <button class="statusCode">214</button>
+              <button class="statusCode">226</button>
+            </div>
+            <div class="img-block">
+              <img src="" alt="" />
+            </div>
+          </div>
+          <div id="3xx" class="tab-content" data-tab-content>
+            <h2>Redirection messages</h2>
+            <div class="status-code-block">
+              <button class="statusCode">300</button>
+              <button class="statusCode">301</button>
+              <button class="statusCode">302</button>
+              <button class="statusCode">303</button>
+              <button class="statusCode">304</button>
+              <button class="statusCode">305</button>
+              <button class="statusCode">306</button>
+              <button class="statusCode">307</button>
+              <button class="statusCode">308</button>
+            </div>
+            <div class="img-block">
+              <img src="" alt="" />
+            </div>
+          </div>
+          <div id="4xx" class="tab-content" data-tab-content>
+            <h2>Client error responses</h2>
+            <div class="status-code-block">
+              <button class="statusCode">400</button
+              ><button class="statusCode">401</button
+              ><button class="statusCode">402</button
+              ><button class="statusCode">403</button
+              ><button class="statusCode">404</button
+              ><button class="statusCode">405</button
+              ><button class="statusCode">406</button
+              ><button class="statusCode">407</button
+              ><button class="statusCode">408</button
+              ><button class="statusCode">409</button
+              ><button class="statusCode">410</button
+              ><button class="statusCode">412</button
+              ><button class="statusCode">413</button
+              ><button class="statusCode">414</button
+              ><button class="statusCode">415</button
+              ><button class="statusCode">416</button
+              ><button class="statusCode">417</button
+              ><button class="statusCode">418</button
+              ><button class="statusCode">420</button
+              ><button class="statusCode">421</button
+              ><button class="statusCode">422</button
+              ><button class="statusCode">423</button
+              ><button class="statusCode">424</button
+              ><button class="statusCode">425</button
+              ><button class="statusCode">426</button
+              ><button class="statusCode">427</button
+              ><button class="statusCode">428</button
+              ><button class="statusCode">429</button
+              ><button class="statusCode">431</button
+              ><button class="statusCode">444</button
+              ><button class="statusCode">450</button
+              ><button class="statusCode">451</button
+              ><button class="statusCode">497</button
+              ><button class="statusCode">498</button
+              ><button class="statusCode">499</button>
+            </div>
+            <div class="img-block">
+              <img src="" alt="" />
+            </div>
+          </div>
+          <div id="5xx" class="tab-content" data-tab-content>
+            <h2>Server error responses </h2>
+            <div class="status-code-block">
+              <button class="statusCode">500</button
+              ><button class="statusCode">501</button
+              ><button class="statusCode">502</button
+              ><button class="statusCode">503</button
+              ><button class="statusCode">504</button
+              ><button class="statusCode">506</button
+              ><button class="statusCode">507</button
+              ><button class="statusCode">508</button
+              ><button class="statusCode">509</button
+              ><button class="statusCode">510</button
+              ><button class="statusCode">511</button
+              ><button class="statusCode">521</button
+              ><button class="statusCode">522</button
+              ><button class="statusCode">523</button
+              ><button class="statusCode">525</button
+              ><button class="statusCode">530</button>
+              <button class="statusCode">599</button>
+            </div>
+            <div class="img-block">
+              <img src="" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
